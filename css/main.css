@@ -395,81 +395,81 @@ h3{
 /* Images */
 
 .img1{
-    position: absolute; left: 0px; top: 0px;
+    position: absolute !important; left: 0px; top: 0px;
 }
 
 .img2{
-position: absolute; left: 664px; top: 0px;
+position: absolute !important; left: 664px; top: 0px;
 }
 
 
 .img3{
-    position: absolute; left: 921px; top: 0px;
+    position: absolute !important; left: 921px; top: 0px;
 }
 
 
 .img4{
-    position: absolute; left: 0px; top: 369px;
+    position: absolute !important; left: 0px; top: 369px;
 }
 
 .img5{
-    position: absolute; left: 405px; top: 369px;
+    position: absolute !important; left: 405px; top: 369px;
 }
 
 .img6{
-    position: absolute; left: 405px; top: 657px;
+    position: absolute !important; left: 405px; top: 657px;
 }
 
 .img7{
-    position: absolute; left: 664px; top: 657px;
+    position: absolute !important; left: 664px; top: 657px;
 }
 
 .img8{
-    position: absolute; left: 921px; top: 369px;
+    position: absolute !important; left: 921px; top: 369px;
 }
 
 
 .img9{
-    position: absolute; left: 0px; top: 954px;
+    position: absolute !important; left: 0px; top: 954px;
 }
 
 .img10{
-    position: absolute; left: 405px; top: 954px;
+    position: absolute !important; left: 405px; top: 954px;
 }
 
 .img11{
-    position: absolute; left: 664px; top: 954px;
+    position: absolute !important; left: 664px; top: 954px;
 }
 
 
 .img12{
-    position: absolute; left: 925px; top: 954px;
+    position: absolute !important; left: 925px; top: 954px;
 }
 
 
 .img13{
-    position: absolute; left: 405px; top: 1227px;
+    position: absolute !important; left: 405px; top: 1227px;
 }
 
 
 .img14{
-    position: absolute; left: 405px; top: 1227px;
+    position: absolute !important; left: 405px; top: 1227px;
 }
 
 .img15{
-    position: absolute; left: 0px; top: 1485px;
+    position: absolute !important; left: 0px; top: 1485px;
 }
 
 .img16{
-    position: absolute; left: 405px; top: 1485px;
+    position: absolute !important; left: 405px; top: 1485px;
 }
 
 .img17{
-    position: absolute; left: 405px; top: 1750px;
+    position: absolute !important; left: 405px; top: 1750px;
 }
 
 .img18{
-    position: absolute; left: 822px; top: 1485px;
+    position: absolute !important; left: 822px; top: 1485px;
 }
 
 
@@ -730,99 +730,102 @@ h3{
 
 }
 
-
+/*
 .img1{
-    position: absolute; left: 0px; top: 0px;
+    position: absolute !important; left: 0px; top: 0px;
     width: 557px !important;
     height: 304px !important;
 }
 
 .img2{
-    position: absolute; left: 572px; top: 0px;
+    position: absolute !important; left: 572px; top: 0px;
     width: 209px !important;
     height: 304px !important;
 }
 
 
 .img3{
-    position: absolute; left: 796px; top: 0px;
+    position: absolute !important; left: 796px; top: 0px;
     width: 213px !important;
     height: 304px !important;
 }
 
 
 .img4{
-    position: absolute; left: 0px; top: 319px;
+    position: absolute !important; left: 0px; top: 319px;
     width: 336px !important;
     height: 489px !important;
 }
 
 .img5{
-    position: absolute; left: 351px; top: 319px;
+    position: absolute !important; left: 351px; top: 319px;
     width: 430px !important;
     height: 234px !important;
 }
 
 .img6{
-    position: absolute; left: 405px; top: 764px;
+    position: absolute !important; left: 405px; top: 764px;
     width: 210px !important;
     height: 243px !important;
 }
 
 .img7{
-    position: absolute; left: 664px; top: 657px;
+    position: absolute !important; left: 664px; top: 657px;
 }
 
 .img8{
-    position: absolute; left: 921px; top: 369px;
+    position: absolute !important; left: 921px; top: 369px;
 }
 
 
 .img9{
-    position: absolute; left: 0px; top: 954px;
+    position: absolute !important; left: 0px; top: 954px;
 }
 
 .img10{
-    position: absolute; left: 405px; top: 954px;
+    position: absolute !important; left: 405px; top: 954px;
 }
 
 .img11{
-    position: absolute; left: 664px; top: 954px;
+    position: absolute !important; left: 664px; top: 954px;
 }
 
 
 .img12{
-    position: absolute; left: 925px; top: 954px;
+    position: absolute !important; left: 925px; top: 954px;
 }
 
 
 .img13{
-    position: absolute; left: 405px; top: 1227px;
+    position: absolute !important; left: 405px; top: 1227px;
 }
 
 
 .img14{
-    position: absolute; left: 405px; top: 1227px;
+    position: absolute !important; left: 405px; top: 1227px;
 }
 
 .img15{
-    position: absolute; left: 0px; top: 1485px;
+    position: absolute !important; left: 0px; top: 1485px;
 }
 
 .img16{
-    position: absolute; left: 405px; top: 1485px;
+    position: absolute !important; left: 405px; top: 1485px;
 }
 
 .img17{
-    position: absolute; left: 405px; top: 1750px;
+    position: absolute !important; left: 405px; top: 1750px;
 }
 
 .img18{
-    position: absolute; left: 822px; top: 1485px;
+    position: absolute !important; left: 822px; top: 1485px;
 }
+*/
 
-
-
+img{
+    width:100%;
+    height: 100% !important;
+}
 
 .triangle{
     right:0;
@@ -952,7 +955,7 @@ textarea{
     margin: -1px;
     overflow: hidden;
     padding: 0;
-    position: absolute;
+    position: absolute !important;
     width: 1px;
 }
 
@@ -983,5 +986,4 @@ textarea{
 .clearfix {
     *zoom: 1;
 }
-
 
