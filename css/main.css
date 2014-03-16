@@ -1,0 +1,987 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+
+#homebg{
+    background-image: url("../img/bg1.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.header-container{
+    margin-bottom: 180px;
+    background: #000000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+.header-container2{
+    margin-bottom: 50px;
+    background: #000000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+.wrapper {
+    width: 1166px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+    height: 80px;
+}
+
+
+
+
+/*  Navigation  */
+
+nav {
+float: right;
+width: 370px;
+}
+
+
+
+nav a{
+    font-weight: 200 !important;
+    font-family: 'Raleway', sans-serif;
+    width: auto;
+    background: none !important;
+}
+
+nav a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*  HOME  */
+
+h1{
+    font-weight: 300 !important;
+    font-size: 62px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2px;
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+
+
+.subtitle{
+    font-weight: 300 !important;
+    font-size: 32px;
+    color: #2d2d2d;
+    text-align: center;
+    line-height: 2px;
+    margin: 20px;
+
+}
+
+.subtitle2{
+    font-weight: 300 !important;
+    font-size: 17px;
+    color: #2d2d2d;
+    text-align: center;
+    line-height: 2px;
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+
+.line{
+    height: 1px;
+    background-color: #ff8b0a;
+    width: 400px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 800 !important;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 200 !important;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*  WORK   */
+
+
+#grid1{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#grid1 li{
+    text-decoration: none !important;
+    list-style: none !important;
+    float: left;
+
+}
+
+
+/* Images */
+
+.img1{
+    position: absolute; left: 0px; top: 0px;
+}
+
+.img2{
+position: absolute; left: 664px; top: 0px;
+}
+
+
+.img3{
+    position: absolute; left: 921px; top: 0px;
+}
+
+
+.img4{
+    position: absolute; left: 0px; top: 369px;
+}
+
+.img5{
+    position: absolute; left: 405px; top: 369px;
+}
+
+.img6{
+    position: absolute; left: 405px; top: 657px;
+}
+
+.img7{
+    position: absolute; left: 664px; top: 657px;
+}
+
+.img8{
+    position: absolute; left: 921px; top: 369px;
+}
+
+
+.img9{
+    position: absolute; left: 0px; top: 954px;
+}
+
+.img10{
+    position: absolute; left: 405px; top: 954px;
+}
+
+.img11{
+    position: absolute; left: 664px; top: 954px;
+}
+
+
+.img12{
+    position: absolute; left: 925px; top: 954px;
+}
+
+
+.img13{
+    position: absolute; left: 405px; top: 1227px;
+}
+
+
+.img14{
+    position: absolute; left: 405px; top: 1227px;
+}
+
+.img15{
+    position: absolute; left: 0px; top: 1485px;
+}
+
+.img16{
+    position: absolute; left: 405px; top: 1485px;
+}
+
+.img17{
+    position: absolute; left: 405px; top: 1750px;
+}
+
+.img18{
+    position: absolute; left: 822px; top: 1485px;
+}
+
+
+
+/*  Footer   */
+
+.triangle{
+    right:0;
+    z-index:100;
+    position:fixed;   
+    bottom:60px;
+    width: 0;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 60px 1800px;
+    border-color: transparent transparent #ff0033 transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #007bff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.triangle2{
+
+    z-index:100;
+    position:fixed;
+    bottom:60px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 60px 0 0 2000px;
+    border-color: transparent transparent transparent #ca0028;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #007bff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.footer-container{
+  width: 100%;
+  z-index:100;
+  height: 85px;
+  position:fixed;
+  bottom:0px;
+  border-top-style: solid;
+  border-top: none;
+  margin: 0 auto;
+  background-color: #ff0033;
+
+}
+
+.footer-container footer {
+    color: white;
+    padding: 0px 0;
+}
+
+.contacto{
+    width: 400px;
+    float: left;
+}
+
+form{
+    margin: 0;
+    float: right;
+}
+
+input{
+     width: 210px;
+    height: 25px;
+    margin-bottom: 4px;
+    background-color: #ba0025;
+    border: 0;
+}
+
+textarea{
+   width: 320px;
+    height: 30px;
+    background-color: #ba0025;
+    border: 0;
+
+}
+
+#enviar{
+    font-family: raleway;
+    font-weight: 600;
+    width: 102px;
+    height: 36px;
+    border: 0;
+
+}
+
+
+}
+
+
+
+
+
+
+/* ===============
+   About Page Screen
+   =============== */
+
+#about{
+    background-image: url("../img/about_bg.jpg");
+    background-color: black;
+    height: 700px;
+}
+
+
+
+#icons li{
+    text-decoration: none !important;
+    list-style: none !important;
+    float: left;
+    margin-right: 150px;
+    text-align: center;
+
+}
+
+#icons{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+}
+
+
+#icons li:last-child{
+    margin-right: 0;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) and (min-width: 1025px){
+    
+
+.wrapper {
+    width: 1000px; 
+    margin: 0 auto;
+    height: 80px;
+}
+
+
+
+#homebg{
+    background-image: url("../img/bg1.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.header-container{
+    margin-bottom: 180px;
+    background: #000000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+
+
+.header-container2{
+    margin-bottom: 50px;
+    background: #000000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+
+nav {
+float: right;
+width: 370px;
+}
+
+
+
+nav a{
+    font-weight: 200 !important;
+    font-family: 'Raleway', sans-serif;
+    width: auto;
+    background: none !important;
+}
+
+nav a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*  HOME  */
+
+h1{
+    font-weight: 300 !important;
+    font-size: 62px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2px;
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+.line{
+    height: 1px;
+    background-color: #ff8b0a;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+h2{
+    font-weight: 800 !important;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 200 !important;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+/*  WORK   */
+
+#grid1{
+    position: relative;
+}
+
+#grid1 li{
+    text-decoration: none !important;
+    list-style: none !important;
+    float: left;
+
+
+}
+
+
+.img1{
+    position: absolute; left: 0px; top: 0px;
+    width: 557px !important;
+    height: 304px !important;
+}
+
+.img2{
+    position: absolute; left: 572px; top: 0px;
+    width: 209px !important;
+    height: 304px !important;
+}
+
+
+.img3{
+    position: absolute; left: 796px; top: 0px;
+    width: 213px !important;
+    height: 304px !important;
+}
+
+
+.img4{
+    position: absolute; left: 0px; top: 319px;
+    width: 336px !important;
+    height: 489px !important;
+}
+
+.img5{
+    position: absolute; left: 351px; top: 319px;
+    width: 430px !important;
+    height: 234px !important;
+}
+
+.img6{
+    position: absolute; left: 405px; top: 764px;
+    width: 210px !important;
+    height: 243px !important;
+}
+
+.img7{
+    position: absolute; left: 664px; top: 657px;
+}
+
+.img8{
+    position: absolute; left: 921px; top: 369px;
+}
+
+
+.img9{
+    position: absolute; left: 0px; top: 954px;
+}
+
+.img10{
+    position: absolute; left: 405px; top: 954px;
+}
+
+.img11{
+    position: absolute; left: 664px; top: 954px;
+}
+
+
+.img12{
+    position: absolute; left: 925px; top: 954px;
+}
+
+
+.img13{
+    position: absolute; left: 405px; top: 1227px;
+}
+
+
+.img14{
+    position: absolute; left: 405px; top: 1227px;
+}
+
+.img15{
+    position: absolute; left: 0px; top: 1485px;
+}
+
+.img16{
+    position: absolute; left: 405px; top: 1485px;
+}
+
+.img17{
+    position: absolute; left: 405px; top: 1750px;
+}
+
+.img18{
+    position: absolute; left: 822px; top: 1485px;
+}
+
+
+
+
+.triangle{
+    right:0;
+    z-index:100;
+    position:fixed;   
+    bottom:60px;
+    width: 0;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 60px 1800px;
+    border-color: transparent transparent #ff0033 transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #007bff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.triangle2{
+
+    z-index:100;
+    position:fixed;
+    bottom:60px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 60px 0 0 1600px;
+    border-color: transparent transparent transparent #ca0028;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #007bff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.footer-container{
+  width: 100%;
+  z-index:100;
+  height: 85px;
+  position:fixed;
+  bottom:0px;
+  border-top-style: solid;
+  border-top: none;
+  margin: 0 auto;
+  background-color: #ff0033;
+
+}
+
+.footer-container footer {
+    color: white;
+    padding: 0px 0;
+}
+
+.contacto{
+    width: 400px;
+    float: left;
+}
+
+form{
+    margin: 0;
+    float: right;
+}
+
+input{
+     width: 210px;
+    height: 25px;
+    margin-bottom: 4px;
+    background-color: #ba0025;
+    border: 0;
+}
+
+textarea{
+   width: 320px;
+    height: 30px;
+    background-color: #ba0025;
+    border: 0;
+
+}
+
+#enviar{
+    font-family: raleway;
+    font-weight: 600;
+    width: 102px;
+    height: 36px;
+    border: 0;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
