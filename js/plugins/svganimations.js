@@ -24,7 +24,7 @@
 			window.oRequestAnimationFrame      || 
 			window.msRequestAnimationFrame     || 
 			function(/* function */ callback){
-				window.setTimeout(callback, 1000 / 60);
+				window.setTimeout(callback, 1400 / 80);
 			}
 		);
 	}();
@@ -46,7 +46,7 @@
 		this.el = el;
 		this.image = this.el.previousElementSibling;
 		this.current_frame = 0;
-		this.total_frames = 60;
+		this.total_frames = 80;
 		this.path = new Array();
 		this.length = new Array();
 		this.handle = 0;
@@ -86,8 +86,8 @@
 	};
 
 	SVGEl.prototype.showImage = function() {
-		classie.add( this.image, 'show' );
-		classie.add( this.el, 'hide' );
+		classie.add( this.image, 'hide' );
+		classie.add( this.el, 'show' );
 	};
 
 	function getViewportH() {
@@ -158,7 +158,7 @@
 		var scrollHandler = function() {
 				if( !didScroll ) {
 					didScroll = true;
-					setTimeout( function() { scrollPage(); }, 60 );
+					setTimeout( function() { scrollPage(); }, 80 );
 				}
 			},
 			scrollPage = function() {
