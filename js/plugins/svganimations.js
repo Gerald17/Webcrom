@@ -137,11 +137,11 @@
 	}
 	
 	function init() {
-		var svgs = Array.prototype.slice.call( document.querySelectorAll( '#main svg' ) ),
+		var svgs = Array.prototype.slice.call( document.querySelectorAll( '.line-drawing' ) ),
 			svgArr = new Array(),
 			didScroll = false,
 			resizeTimeout;
-
+		console.log(svgs.length);
 		// the svgs already shown...
 		svgs.forEach( function( el, i ) {
 			var svg = new SVGEl( el );
