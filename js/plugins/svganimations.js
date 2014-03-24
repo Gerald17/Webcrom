@@ -24,7 +24,7 @@
 			window.oRequestAnimationFrame      || 
 			window.msRequestAnimationFrame     || 
 			function(/* function */ callback){
-				window.setTimeout(callback, 1400 / 80);
+				window.setTimeout(callback, 1000 / 80);
 			}
 		);
 	}();
@@ -86,7 +86,7 @@
 	};
 
 	SVGEl.prototype.showImage = function() {
-		classie.add( this.image, 'hide' );
+//		classie.add( this.image, 'hide' );
 		classie.add( this.el, 'show' );
 	};
 
